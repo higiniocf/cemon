@@ -32,6 +32,7 @@ def Get_CEMarket(id):
       data= {"success":"0","request":"\/api\/v1\/getmarket","message":"","result":{"MarketID":"0","LastPrice":"0","Change":"0","HighPrice":"0","LowPrice":"0","Volume":"0","BTCVolume":"0","TradeCount":"0","BidPrice":"0","AskPrice":"0","Bu$
 
     return data
+                                                                                   
 def main():
     # Request Market Data for BTC/XP
     mrktData = Get_CEMarket('135')
